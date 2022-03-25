@@ -5,6 +5,18 @@ Uses [Spotipy](https://github.com/plamere/spotipy)
 
 # Get yourself running
 
+## Install packages
+```
+$ conda create --name liked_lineup --file requirements.txt
+Windows:
+$ conda activate liked_lineup
+Linux/Mac OS:
+$ conda source activate liked_lineup
+
+OR in an existing environment:
+$ pip install -r requirements.txt
+```
+
 ## Create your Spotify credentials and App
 1. [Create a developer account](https://developer.spotify.com/)
 2. [Create an app and call it whatever you want](https://developer.spotify.com/dashboard/applications)
